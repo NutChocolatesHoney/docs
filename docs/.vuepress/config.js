@@ -1,10 +1,13 @@
 module.exports = {
+    head: [
+        ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
+    ], //移动端优化
     title: 'Blog',
     description: 'Just playing around',
     theme: 'reco',
     themeConfig: {
         author: 'caiwenqin', //全局作者姓名
-        type: 'blog', //博客风格首页
+        sidebar: 'auto', //在所有页面中启用自动生成侧栏
         mode: 'auto', // 默认 auto，auto 跟随系统，dark 暗色模式，light 亮色模式
         modePicker: true,// 默认 true，false 不显示模式调节按钮，true 则显示
         locales: {
@@ -35,7 +38,12 @@ module.exports = {
                 location: 3,     // 在导航栏菜单中所占的位置，默认3
                 text: 'Tag'      // 默认文案 “标签”
             }
-        }
+        },
+        nav: [
+            { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' } //时间线
+        ],
+        // 项目开始时间，只填写年份
+        startYear: '2017'
     },
     locales: {
         '/': {

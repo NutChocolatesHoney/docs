@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: ./git.jpg
+heroImage: https://static-resource-repository.oss-cn-shanghai.aliyuncs.com/docs/public/hibiki.png
 heroImageStyle: {
   maxWidth: '200px',
   width: '100%',
