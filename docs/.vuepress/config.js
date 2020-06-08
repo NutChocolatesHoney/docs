@@ -43,7 +43,7 @@ module.exports = {
             { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' } //时间线
         ],
         // 项目开始时间，只填写年份
-        startYear: '2017'
+        startYear: '2020'
     },
     locales: {
         '/': {

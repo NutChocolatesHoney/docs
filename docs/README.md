@@ -1,8 +1,8 @@
 ---
 home: true
-heroImage: https://static-resource-repository.oss-cn-shanghai.aliyuncs.com/docs/public/hibiki.png
+heroImage: https://static-resource-repository.oss-cn-shanghai.aliyuncs.com/docs/public/500.png
 heroImageStyle: {
-  maxWidth: '200px',
+  maxWidth: '310px',
   width: '100%',
   display: block,
   margin: '5rem auto 2rem',
