@@ -2,22 +2,25 @@ module.exports = {
     head: [
         ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
     ], //移动端优化
-    title: 'Blog',
-    description: 'Just playing around',
     theme: 'reco',
+    title: "blog",
+    description: '荷尽已无擎雨盖，菊残犹有傲霜枝',
     themeConfig: {
         author: 'caiwenqin', //全局作者姓名
         sidebar: 'auto', //在所有页面中启用自动生成侧栏
+
         mode: 'auto', // 默认 auto，auto 跟随系统，dark 暗色模式，light 亮色模式
         modePicker: true,// 默认 true，false 不显示模式调节按钮，true 则显示
+        type: 'blog',
+        authorAvatar: 'https://static-resource-repository.oss-cn-shanghai.aliyuncs.com/docs/public/profile_picture.jpg',
         locales: {
             '/': {
                 recoLocales: {
                     homeBlog: {
-                        article: '美文', // 默认 文章
-                        tag: '标识', // 默认 标签
-                        category: '类别', // 默认 分类
-                        friendLink: '友链' // 默认 友情链接
+                        article: 'article', // 默认 文章
+                        tag: 'tag', // 默认 标签
+                        category: 'category', // 默认 分类
+                        friendLink: 'friendLink' // 默认 友情链接
                     },
                     pagation: {
                         prev: '上一页',
