@@ -30,11 +30,11 @@ bgImageStyle: {
 }
 
 .home-blog .hero .action, .home-blog .hero .description, .home-blog .hero .huawei, .home-blog .hero h1 {
-    color: #4b4b4b!important;
+    color: #71717b !important;
 }
 
 .home-blog .hero h1 {
-    margin: 20rem auto 1.8rem !important;
+    margin: 33vh auto 1.8rem !important;
 }
 
 @media (max-width: 719px)

@@ -3,10 +3,10 @@ module.exports = {
         ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
     ], //移动端优化
     theme: 'reco',
-    title: "blog",
-    description: '荷尽已无擎雨盖，菊残犹有傲霜枝',
+    title: "Blog",
+    description: '',
     themeConfig: {
-        author: 'caiwenqin', //全局作者姓名
+        author: 'NutChocolatesHoney', //全局作者姓名
         sidebar: 'auto', //在所有页面中启用自动生成侧栏
 
         mode: 'auto', // 默认 auto，auto 跟随系统，dark 暗色模式，light 亮色模式
