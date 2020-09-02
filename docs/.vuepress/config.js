@@ -23,10 +23,10 @@ module.exports = {
                         friendLink: 'friendLink' // 默认 友情链接
                     },
                     pagation: {
-                        prev: '上一页',
-                        next: '下一页',
-                        go: '前往',
-                        jump: '跳转至'
+                        prev: 'prev',
+                        next: 'next',
+                        go: 'go',
+                        jump: 'jump'
                     }
                 }
             }
