@@ -34,7 +34,7 @@ bgImageStyle: {
 }
 
 .home-blog .hero h1 {
-    margin: 33vh auto 1.8rem !important;
+    margin: -10vh auto 1.8rem !important;
 }
 
 @media (max-width: 719px)
