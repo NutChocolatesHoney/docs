@@ -4,12 +4,8 @@ module.exports = {
     ], //移动端优化
     theme: 'reco',
     title: "Blog",
-    description: '',
-    locales: {
-        '/': {
-            lang: 'zh-CN'
-        }
-    },
+    description: '強請るな、勝ち取れ、さすれば与えられん',
+
     themeConfig: {
         author: 'NutChocolatesHoney', //全局作者姓名
         sidebar: 'auto', //在所有页面中启用自动生成侧栏
@@ -32,28 +28,7 @@ module.exports = {
             {text: 'TimeLine', link: '/timeline/', icon: 'reco-date'} //时间线
         ],
         // 项目开始时间，只填写年份
-        startYear: '2020',
-
-
-
-        locales: {
-            '/': {
-                recoLocales: {
-                    homeBlog: {
-                        article: 'Article', // 默认 文章
-                        tag: 'Tag', // 默认 标签
-                        category: 'Category', // 默认 分类
-                        friendLink: 'Friend Link' // 默认 友情链接
-                    },
-                    pagation: {
-                        prev: '上一页',
-                        next: '下一页',
-                        go: '前往',
-                        jump: '跳转至'
-                    }
-                }
-            }
-        }
+        startYear: '2020'
     }
 
 };

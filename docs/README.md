@@ -6,6 +6,7 @@ bgImageStyle: {
     overflow: 'hidden',
     height: '100vh'
 }
+heroText: null
 ---
 
 
@@ -30,15 +31,13 @@ bgImageStyle: {
 }
 
 .home-blog .hero .action, .home-blog .hero .description, .home-blog .hero .huawei, .home-blog .hero h1 {
-    color: #71717b !important;
+    color: #565660 !important;
 }
 
-.home-blog .hero h1 {
-    margin: -10vh auto 1.8rem !important;
+.home-blog .hero .description {
+    margin: -10vh auto 1.5rem !important;
+    font-size: 1.7rem !important;
+    line-height: 1.3 !important;
 }
 
-@media (max-width: 719px)
-.home-blog .hero {
-    height: 450px !important;
-}
 </style>
