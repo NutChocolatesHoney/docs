@@ -9,7 +9,7 @@ module.exports = {
     themeConfig: {
         author: 'NutChocolatesHoney', //全局作者姓名
         sidebar: 'auto', //在所有页面中启用自动生成侧栏
-        mode: 'auto', // 默认 auto，auto 跟随系统，dark 暗色模式，light 亮色模式
+        mode: 'light', // 默认 auto，auto 跟随系统，dark 暗色模式，light 亮色模式
         modePicker: true,// 默认 true，false 不显示模式调节按钮，true 则显示
         type: 'blog',
         authorAvatar: 'https://static-resource-repository.oss-cn-shanghai.aliyuncs.com/docs/public/profile_picture.jpg',
@@ -29,6 +29,17 @@ module.exports = {
         ],
         // 项目开始时间，只填写年份
         startYear: '2020'
-    }
-
+    },
+    plugins: [
+        [
+            "dynamic-title",
+            {
+                showIcon: "/favicon.ico",
+                showText: "(/≧▽≦/)咦！又好了！",
+                hideIcon: "/failure.ico",
+                hideText: "(●—●)喔哟，崩溃啦！",
+                recoverTime: 2000
+            }
+        ]
+    ]
 };
